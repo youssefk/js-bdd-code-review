@@ -9,9 +9,9 @@ var bottles = function(bottlesAreLeft) {
     for (var bottlesLeft = bottlesInput; bottlesLeft >= 1; bottlesLeft -= 1) {
       alert(bottlesLeft + " bottles of beer on the wall, " + bottlesLeft + " bottles of beer. Take one down, pass it around, " + (bottlesLeft - 1) + " bottles of beer on the wall.");
     }
-    return false;
     alert("No more bottles of beer on the wall, no more bottles of beer. Go to the store and buy some more, " + bottlesInput + " bottles of beer on the wall.");
     var bottlesAreLeft = false;
+    return false;
 
   } else { var isValidInput = false;
            alert("Invalid input, please reload the page and try again.");

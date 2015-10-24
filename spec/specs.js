@@ -1,5 +1,4 @@
 describe('bottles', function() {
-
   it("is a valid number of bottles to sing about", function() {
     expect(bottles(isValidInput)).to.equal(true);
   });
